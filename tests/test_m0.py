@@ -20,4 +20,4 @@ def test_reference_render_is_deterministic():
         cmd = ["python3", str(ROOT/"tools/m0_render.py"), str(SCENE)]
         subprocess.run(cmd+[str(a)], check=True)
         subprocess.run(cmd+[str(b)], check=True)
-        assert hashlib.sha256(a.read_bytes()).digest() == hashlib.sha256(b.read_bytes())
+        assert hashlib.sha256(a.read_bytes()).digest() == hashlib.sha256(b.read_bytes()).digest()
