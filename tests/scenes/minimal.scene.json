@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "camera": {
+    "position": [0, 0, -5],
+    "rotation": [0, 0, 0],
+    "fov_degrees": 50
+  },
+  "objects": [
+    {
+      "id": 1,
+      "mesh": "triangle",
+      "material": "default",
+      "position": [0, 0, 0],
+      "rotation": [0, 0, 0],
+      "scale": [1, 1, 1]
+    }
+  ],
+  "render": {
+    "width": 320,
+    "height": 256,
+    "frame": 0
+  }
+}
